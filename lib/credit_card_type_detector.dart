@@ -84,7 +84,7 @@ const Map<CreditCardType, Set<List<String>>> cardNumPatterns = {
     ['56', '59'],
     ['63'],
     ['67'],
-    //['6'], Not 100% about this one
+    //['6'], Not 100% about this one because it will mess up anything that starts with a 6
   },
   CreditCardType.elo: {
     ['401178'],
@@ -122,6 +122,8 @@ const Map<CreditCardType, Set<List<String>>> cardNumPatterns = {
     ['637599'],
     ['637609'],
     ['637612'],
+    ['63743358'],
+    ['63737423'],
   },
   CreditCardType.hipercard: {
     ['606282'],
